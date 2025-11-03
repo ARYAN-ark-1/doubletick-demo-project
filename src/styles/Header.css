@@ -1,0 +1,145 @@
+.dt-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 28px;
+  font-family: "Inter", sans-serif;
+}
+
+/* === Line 1: Logo === */
+.dt-logo-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.dt-logo-large {
+  width: 138px;
+  height: 58px;
+}
+
+.dt-logo-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* === Line 2: Title === */
+.dt-title-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.dt-title-line h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.dt-count {
+  background-color: #e5f7ee;
+  color: #0d8f53;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+
+/* === Line 3: Search + Filter === */
+.dt-controls-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dt-search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 12px;
+  flex: 1;
+  max-width: 400px;
+}
+
+.dt-search-icon {
+  width: 16px;
+  height: 16px;
+  opacity: 0.6;
+}
+
+.dt-search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 14px;
+}
+
+/* Filter button */
+.dt-filter {
+  position: relative;
+}
+
+.dt-filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.dt-filter-icon {
+  width: 16px;
+  height: 16px;
+  opacity: 0.6;
+}
+
+/* Dropdown */
+.dt-filter-dropdown {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  z-index: 10;
+}
+
+.dt-filter-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dt-filter-dropdown li {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dt-filter-dropdown li:hover {
+  background-color: #f3f3f3;
+}
+.dt-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0; /* soft grey line */
+  margin: 12px 0; /* spacing between sections */
+}
+
